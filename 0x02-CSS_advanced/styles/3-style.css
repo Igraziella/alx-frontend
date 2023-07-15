@@ -1,11 +1,7 @@
-/* Reuse and repeat by using variables*/
+/* Reuse and repeat by using variables */
 
 html {
     scroll-behavior: smooth;
-}
-
-a {
-    color: #161616;
 }
 
 .visually-hidden {
@@ -22,6 +18,10 @@ a {
 }
 
 body {
+    color: var(text-color);
+}
+
+a {
     color: var(text-color);
 }
 
