@@ -1,4 +1,8 @@
-/* Resetting the stylesheet for browser consistency using necolas' normalize.css */
+/* Universal box-sizing rule */
+
+* {
+    box-sizing: border-box;
+}
 
 html {
     scroll-behavior: smooth;
