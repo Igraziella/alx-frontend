@@ -162,7 +162,7 @@ sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-f
     text-align: center;
 }
 
-.nav-item.nav {
+.nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -171,11 +171,11 @@ sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-f
     margin: var(--nav-item-margin);
 }
 
-.nav-link.nav {
+.nav-link {
     display: block;
-    padding: var(--nav-item-padding-top-bottom) var(--nav-item-padding-left-right);
+    padding: var(--nav-item-padding-top-bottom, var(--nav-item-padding-left-right));
 }
 
-.nav-link.nav:hover {
-    color: var(--nav-item-link-hover);
+.nav-link:hover {
+    color: var(--nav-item-link-hover, var(--color-primary));
 }
