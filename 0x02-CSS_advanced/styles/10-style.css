@@ -1,4 +1,4 @@
-/* aligning items in section-header */
+/* aligning section titles */
 
 html {
     scroll-behavior: smooth;
@@ -50,7 +50,7 @@ a {
 }
 
 .section-header {
-    align-items: var(--section-header-align);
+    text-align: var(--section-header-align);
 }
 
 .section-tagline {
