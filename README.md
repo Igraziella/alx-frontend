@@ -1,1 +1,1 @@
-This repo contains HTML tasks done for my ALX frontend specialization course.
+This repo contains HTML and CSS tasks done for my ALX frontend specialization course.
