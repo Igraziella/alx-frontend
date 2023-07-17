@@ -151,15 +151,15 @@ sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-f
             font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
 /*# sourceMappingURL=normalize.min.css.map */
 
-.navbar-menu {
-    float: right;
-}
-
 .nav {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
+}
+
+.navbar-menu {
+    float: right;
 }
 
 .nav-item {
