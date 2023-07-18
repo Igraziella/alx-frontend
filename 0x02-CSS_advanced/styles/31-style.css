@@ -172,6 +172,21 @@ a:active {
     color: var(--color-primary);
 }
 
+/* add quotes decoration to testimonials */
+.card-testimonial .card-quote {
+    position: relative;
+}
+
+.card-testimonial .card-quote::before {
+    content: "\201C";
+    position: absolute;
+    top: -4.4rem;
+    left: -1rem;
+    color: #efeded;
+    font-size: 10rem;
+    z-index: -1;
+}
+
 /* fixing the images in work section */
 .card-work .card-outer {
     position: relative;
