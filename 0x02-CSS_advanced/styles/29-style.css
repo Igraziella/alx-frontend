@@ -313,7 +313,7 @@ h1, h2, h3, h4,  h5, h6 {
 }
 
 /* styling and custom properties for the nav, targeting the before pseudo elements */
-.nav-link::before {
+.nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;
@@ -323,7 +323,7 @@ h1, h2, h3, h4,  h5, h6 {
     height: 20%;
 }
 
-.nav-link::before .nav-item:hover {
+.nav .nav-link::before .nav-item:hover {
     background-color: var(--color-primary);
     width: 100%;
 }
