@@ -172,7 +172,7 @@ a:active {
     color: var(--color-primary);
 }
 
-/* fixing the work section */
+/* fixing the images in work section */
 .card-work .card-outer {
     position: relative;
     overflow: hidden;
@@ -205,13 +205,13 @@ a:active {
     position: relative;
 }
 
-.card-work a, .card-title a {
+.card-title a, .card-work a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
 
-.card-work a::after, .card-title a::after {
+.card-title a::after, .card-work a::after {
     position: absolute;
     top: 0;
     right: 0;
