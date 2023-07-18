@@ -1,16 +1,6 @@
 /* Defining line heights */
-
-html {
-    scroll-behavior: smooth;
-    font-size: 62.5%;
-}
-
-.visually-hidden {
-    display: none;
-}
-
 :root {
-    --color-primary: #d73959;
+    --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
@@ -30,13 +20,21 @@ html {
     --line-height-big: 1.8;
 }
 
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+.visually-hidden {
+    display: none;
+}
+
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base);
-    min-height: calc(var(--line-height-base) * 1em);
+    min-height: var(--line-height-base);
 }
 
 a {

@@ -1,15 +1,7 @@
 /* storing font types using variables */
 
-html {
-    scroll-behavior: smooth;
-}
-
-.visually-hidden {
-    display: none;
-}
-
 :root {
-    --color-primary: #d73959;
+    --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
@@ -17,6 +9,14 @@ html {
     --text-color: var(--color-black);
     --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.visually-hidden {
+    display: none;
 }
 
 body {
