@@ -313,7 +313,7 @@ h1, h2, h3, h4,  h5, h6 {
 }
 
 /* styling and custom properties for the nav, targeting the before pseudo elements */
-.nav .nav-link:before {
+.nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;
