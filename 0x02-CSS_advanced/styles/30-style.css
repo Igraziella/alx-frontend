@@ -172,7 +172,8 @@ a:active {
     color: var(--color-primary);
 }
 
-/* fixing the images in work section */
+/* fixing the cards in work section */
+
 .card-work .card-outer {
     position: relative;
     overflow: hidden;

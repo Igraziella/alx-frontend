@@ -8,7 +8,7 @@ textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;paddin
 /*# sourceMappingURL=normalize.min.css.map */
 
 :root {
-    --color-primary: #d73959;
+    --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
@@ -47,6 +47,8 @@ textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;paddin
     --section-tagline-margin: 0;
 }
 
+/* Universal box-sizing rule */
+
 *, 
 *::before,
 *::after {
@@ -68,8 +70,9 @@ body {
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
-    min-height: calc(var(--line-height-base) * 1em);
 }
+
+/* Created pseudo classes for anchor selector */
 
 a:link {
     color: var(--text-color);
@@ -93,13 +96,14 @@ a:active {
 }
 
 /* Add background and hover state to services */
+
 .card-services .card-title {
     margin: 0;
 }
 
 .card-services a {
     display: block;
-    padding: calc(2 * var(--root-element));
+    padding: 2rem;
     background-color: var(--color-light-grey);
 }
 
@@ -207,6 +211,8 @@ h1, h2, h3, h4,  h5, h6 {
     fill: var(--text-color);
 }
 
+/* customizing the navbar */
+
 .nav {
     margin: 0;
     padding: 0;
@@ -218,7 +224,7 @@ h1, h2, h3, h4,  h5, h6 {
     float: right;
 }
 
-.nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -227,14 +233,16 @@ h1, h2, h3, h4,  h5, h6 {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
     display: block;
-    padding: var(--nav-item-padding-top-bottom, var(--nav-item-padding-left-right));
+    padding: var(--nav-item-padding-top-bottom) 2 * var(--nav-item-padding-left-right);
 }
 
 .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
+
+/* Applying dark theme to sections */
 
 [data-section-theme="dark"] {
     --text-color: var(--color-white);
