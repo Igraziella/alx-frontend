@@ -206,13 +206,13 @@ a:active {
     position: relative;
 }
 
-.card-title a, .card-work a {
+.card-work .card-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
 
-.card-title a::after, .card-work a::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     right: 0;
@@ -373,7 +373,7 @@ h1, h2, h3, h4,  h5, h6 {
     left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 20%;
+    height: 0.2rem;
 }
 
 .nav .nav-item:hover .nav-link::before {
