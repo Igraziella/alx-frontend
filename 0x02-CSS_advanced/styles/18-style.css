@@ -39,10 +39,9 @@ textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;paddin
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 4%;
+    --nav-item-letter-spacing: .04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin-bottom: calc(3 * var(--root-element));
-    --nav-item-margin: 0; 
+    --nav-item-margin: 0 0 0 2rem;; 
     --nav-item-link-hover: var(--color-primary);
 }
 
@@ -166,9 +165,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav .nav-link {
     display: block;
-    padding: var(--nav-item-padding-top-bottom) 2 * var(--nav-item-padding-left-right);
+    padding: 0.5rem 0;
 }
 
-.nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
