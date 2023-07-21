@@ -80,7 +80,7 @@ textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;paddin
 
     /* MOTION */
     --transition-duration: .3s;
-    --transition-cubic-bezier: 0.17, 0.67, 0, 1.0;
+    --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
 *, 
