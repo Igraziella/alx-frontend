@@ -44,8 +44,7 @@ textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;paddin
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin-bottom: calc(3 * var(--root-element));
-    --nav-item-margin: 0; 
+    --nav-item-margin: 0 0 0 2rem;
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
 }
@@ -205,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav .nav-link {
     display: block;
-    padding: var(--nav-item-padding-top-bottom) 2 * var(--nav-item-padding-left-right);
+    padding: 0.5rem 0;
 }
 
 .nav-link:hover {
